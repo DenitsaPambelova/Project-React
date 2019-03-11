@@ -1,0 +1,41 @@
+img.profilePic{
+ 
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+   
+}
+
+#username{
+  color:darkcyan;
+  font-weight: 900;
+  text-shadow: 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#isAdmin{
+  color:darkcyan;
+  font-weight: 900;
+  text-shadow: 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+#isAdmin2{
+  color:red;
+  font-weight: 900;
+}
+
+#ChangeProfilePic{
+  font-weight:900;
+}
+
+#btnChange{
+  display: block;
+    position: relative;
+    bottom: 0px;    
+    color: black;
+    font-weight: 600;
+    background-color: lightgreen;
+    border-color:black;
+    border-width: 800;
+    size: 900;
+    height:50px;
+    width: 200px;
+    
+}

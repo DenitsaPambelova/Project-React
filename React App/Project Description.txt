@@ -1,0 +1,41 @@
+
+Short info about my React Project for mini-yoga shop "World of Yoga"
+
+My website is a place for yoga fans and designed as a mini-shop for yoga products.
+
+I used React for front-end, Kinvey as database, Youtube API, and JQuery.
+
+Navigation Bar:
+The NavBar Changes depending on user roles.
+On the left appears a yoga logo.
+If logged in, you can access the products available and the profile section.
+The user details are located on the right with a profile picture.
+Login and register buttons disappear and the logout button appears.
+
+Video Section
+Video is also shown as home page
+Contains Youtube API, plays a video with Chill Out Music, appropriate for relax and yoga practice
+
+Footer  -contains simple text - "World of Yoga"
+
+About Section
+Info button clicked shows text with more details about Yoga philosophy and styles.
+
+Admin products - when logged in as admin you have access to the product creation panel.
+
+Non-admin products
+You can see all products in the database, displayed in productCards, can access the "view more" button
+
+non-Admin "View More": Access to description and picture about specific product.
+
+
+Admin "View More": Admins can update and delete products. Profile picture can be changed.
+
+
+
+
+
+
+
+
+

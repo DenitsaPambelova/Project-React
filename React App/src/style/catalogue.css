@@ -1,0 +1,113 @@
+div.Product-Container{
+    
+    
+    opacity:0.8;
+    font-weight: 900;
+    max-width: 900px;
+}
+
+
+
+#productCardDescription{
+    color:black;
+    font-weight:900;
+}
+
+#productCardTitle{
+    color:black;
+    font-size:20px;
+    font-weight:900;
+}
+  
+.productCreater{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 13px 20px;
+  text-align: center;
+  font-family: arial;
+  display:block;
+  position: absolute;
+  left: 0;
+  height:620px;
+  width:350px;
+  background: rgba(221, 197, 197, 0.363);;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  
+  height: auto;
+  margin: 13px 20px;
+  text-align: center;
+  font-family: arial;
+  display:inline-block;
+  background-color: rgba(221, 197, 197, 0.363);
+  
+  
+}
+
+.title {
+  color: black;
+  font-size: 18px;
+}
+
+button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  
+}
+
+#button3{
+  color:black;
+  width:300px;
+  
+}
+
+#productCardImage{
+  border-radius: 5%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+#crtDescription2{
+    width: 95%;height: 150px;
+     background-color: rgba(221, 197, 197, 0.363);
+     resize: none;
+}
+#crtTitle2{
+    width: 95%;height: 50px;
+     background-color: rgba(221, 197, 197, 0.363);
+     resize: none;
+    
+
+}
+#crtPrice2{
+     width: 35%;
+     background-color: rgba(221, 197, 197, 0.363);
+     resize: none;
+}
+#prdPicUrl2{
+    
+     background-color: rgba(221, 197, 197, 0.363);
+     resize: none;
+    
+
+}
+

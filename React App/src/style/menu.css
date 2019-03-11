@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    border-radius: 5px;
+}
+
+li {
+    display: inline-block;
+    
+    
+    
+}
+
+li a {
+    display: block;
+    color: darkcyan;
+    font-weight: 900;
+    text-shadow: 4px 8px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: tomato;
+    
+    
+}
+li2 {
+    float:right;
+    color: darkcyan;
+    font-weight: 900;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: tomato;
+    text-shadow: 4px 8px 0 rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+
+li a:hover:not(.active) {
+    background-color: lightblue;
+}
+
+.active {
+    background-color: #008CBA;
+}
+about{
+    float:right
+}
+span.logo{
+     display:inline-block;
+}
+

@@ -1,0 +1,136 @@
+.ProductView {
+  
+  
+  margin: 20px 130px;
+  text-align: center;
+  font-family: arial;
+  display:inline-block;
+}
+productViewDiv{
+    display: inline-block;
+}
+
+
+
+#productInfo{
+    
+    right: 0;
+    padding: 20px 15px;
+    margin: 20px 50px;
+    float:right;
+    width: 600px;
+    height: 710px;
+    border-color:black;
+    border-width: 800;
+    background-color: rgba(221, 197, 197, 0.363);
+    border-radius: 3%;
+    position:relative;
+    
+    
+}
+
+#productImage{
+    
+    margin: 20px -100px;
+    
+    border-radius: 3%;
+}
+
+
+#productTitle{
+    font-weight: 900;
+    text-shadow: 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#description{
+    
+    height: 500px;
+    
+    font-weight: 900;
+    border-color:black;
+    border-radius: 10px;
+    border-width: 800;
+    
+    
+    text-shadow: 4px 8px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+#btnUpdate{
+display: inline-block;
+    position: relative;
+    bottom: 0px;
+    height: 50px;
+    width:  200px;
+    margin: 5px;
+    color: black;
+    font-weight: 800;
+    background-color: #4CAF50;
+    border-color:black;
+    border-width: 800;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    opacity: 0.8;
+}
+
+#btnDelete{
+display: inline-block;
+    position: relative;
+    float:right;
+    opacity: 0.8;       
+    height: 50px;
+    width:  200px;
+    margin: 5px;
+    bottom: 0px;    
+    color: black;
+    font-weight: 800;
+    background-color: #4CAF50;
+    border-color:black;
+    border-width: 800;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    
+}
+
+#priceDiv{
+    
+}
+
+#updateDesc{
+    resize:none;
+    background: white;
+    font-weight:900;
+    background:none;
+    text-shadow: 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#updateTitle{
+    resize:none;
+    background: white;
+    font-weight:900;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    overflow:hidden;
+    background:none;
+    text-shadow: 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#updatePrice{
+    width:130px; 
+    text-align: center;
+    background:none;
+    font-weight: 900;
+    text-shadow: 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#urlDiv{
+    float: right;
+}
+
+#priceh4{
+    display: inline-block;
+}
+
+#updateUrl{
+    background:none;
+    width:230px; 
+}

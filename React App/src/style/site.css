@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.div {
+    border: 1px solid black;
+}
+
+body {
+   
+     background: url("backgroundSite.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+   
+}
+
+#container {
+    margin: 10px;
+}
+
+.content {
+    background: #ffffff;
+    background-image: url("/backgroundSite.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+}
+
+
+footer {
+    position:bottom;
+    left:0px;
+    bottom:0px;
+    font-size:40px;
+    height:60px;
+    width:100%;
+    font-weight: 800;
+    opacity:0.70;
+    color: darkcyan;
+    
+}
+#logo{
+    background-image: url("/backgroundSite.jpg");
+}
+
+.welcome {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.welcome>* {
+    vertical-align: top;
+    overflow: auto;
+}
+
+.about {
+    background: #ddf9c0;
+    padding: 20px;
+    margin: 10px;
+    height: 340px;
+}
+
+.signup {
+    float: right;
+    width: 200px;
+}
+
+#loginForm {
+    display: inline-block;
+    color:black;
+    margin: 10px;
+    padding: 10px;
+    height: 180px;
+    position: relative;
+    
+}
+
+#loginForm>* {
+    width: 230px;
+    box-sizing: border-box;
+    
+}
+
+#registerForm {
+    display: inline-block;
+    color:black;
+    margin: 10px;
+    padding: 10px;
+    height: 180px;
+    position: relative;
+    
+}
+
+#isAdmin{
+    color:red;  
+    
+}
+#isAdmin.span{
+    color:red;
+}
+
+#registerForm>* {
+    width: 230px;
+    box-sizing: border-box;
+    
+    
+}
+
+#btnLogin, #btnRegister {
+    display: block;
+    position: relative;
+    bottom: 0px;    
+    color: black;
+    font-weight: 800;
+    background-color: lightblue;
+    border-color:black;
+    border-width: 800;
+    
+}
+h3 {
+font-family: Verdana;
+color: blue;
+}
+
+p {
+font-family: Garamond;
+font-size: 16px;
+}
+
+
