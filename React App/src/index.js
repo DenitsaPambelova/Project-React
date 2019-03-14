@@ -18,7 +18,7 @@ import productView from "./style/productView.css"
 import $ from "jquery";
 import { findDOMNode } from "react-dom";
 import YouTube from 'react-youtube';
-import updateView from "./style/update.css"
+//import updateView from "./style/update.css"
 
 
 const App = () => (
